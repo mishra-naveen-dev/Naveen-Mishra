@@ -1,0 +1,84 @@
+{
+
+  "name": "frontend",
+ "version": "0.1.0",
+"private": true,
+"dependencies": {
+ "@testing-library/jest-dom": "^5.17.0",
+"@testing-library/react": "^13.4.0",
+"@testing-library/user-event": "^13.5.0",
+  "caniuse-lite": "^1.0.30001584",
+    "gh-pages": "^6.1.1",
+"react": "^18.2.0",
+"react-dom": "^18.2.0",
+"react-icons": "^4.10.1",
+"react-reveal": "^1.2.2",
+"react-scripts": "^5.0.1",
+"react-scroll": "^1.8.9",
+"react-scroll-to-top": "^3.0.0",
+"react-vertical-timeline-component": "^3.6.0",
+"typewriter-effect": "^2.20.1",
+"web-vitals": "^2.1.4"
+
+  },
+
+  "scripts": {
+
+    "start": "react-scripts start",
+
+    "build": "react-scripts build",
+
+    "test": "react-scripts test",
+
+    "eject": "react-scripts eject",
+
+    "predeploy": "npm run build",
+
+    "both": "concurrently \"npm start\" \"nodemon server/app\""
+
+  },
+
+  "eslintConfig": {
+
+    "extends": [
+
+      "react-app",
+
+      "react-app/jest"
+
+    ]
+
+  },
+
+  "browserslist": {
+
+    "production": [
+
+      ">0.2%",
+
+      "not dead",
+
+      "not op_mini all"
+
+    ],
+
+    "development": [
+
+      "last 1 chrome version",
+
+      "last 1 firefox version",
+
+      "last 1 safari version"
+
+    ]
+
+  },
+
+  "devDependencies": {
+
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+
+  }
+
+}
+
