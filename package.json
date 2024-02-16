@@ -1,38 +1,58 @@
 {
 
   "name": "frontend",
- "version": "0.1.0",
-"private": true,
-"dependencies": {
- "@testing-library/jest-dom": "^5.17.0",
-"@testing-library/react": "^13.4.0",
-"@testing-library/user-event": "^13.5.0",
-  "caniuse-lite": "^1.0.30001584",
+
+  "version": "0.1.0",
+
+  "private": true,
+
+  "dependencies": {
+
+    "@testing-library/jest-dom": "^5.17.0",
+
+    "@testing-library/react": "^13.4.0",
+
+    "@testing-library/user-event": "^13.5.0",
+
+    "caniuse-lite": "^1.0.30001584",
+
     "gh-pages": "^6.1.1",
-"react": "^18.2.0",
-"react-dom": "^18.2.0",
-"react-icons": "^4.10.1",
-"react-reveal": "^1.2.2",
-"react-scripts": "^5.0.1",
-"react-scroll": "^1.8.9",
-"react-scroll-to-top": "^3.0.0",
-"react-vertical-timeline-component": "^3.6.0",
-"typewriter-effect": "^2.20.1",
-"web-vitals": "^2.1.4"
+
+    "react": "^18.2.0",
+
+    "react-dom": "^18.2.0",
+
+    "react-icons": "^4.10.1",
+
+    "react-reveal": "^1.2.2",
+
+    "react-scripts": "^5.0.1",
+
+    "react-scroll": "^1.8.9",
+
+    "react-scroll-to-top": "^3.0.0",
+
+    "react-vertical-timeline-component": "^3.6.0",
+
+    "typewriter-effect": "^2.20.1",
+
+    "web-vitals": "^2.1.4"
 
   },
 
   "scripts": {
 
-    "start": "react-scripts start",
-
-    "build": "react-scripts build",
+    "start": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js start",
+   
+      "build": "cross-env NODE_ENV=production OTHERFLAG=myValue webpack --config build/webpack.config.js",
+ 
+   // "build": "react-scripts build",
 
     "test": "react-scripts test",
 
     "eject": "react-scripts eject",
 
-    "predeploy": "npm run build",
+    "deploy": "npm run build",
 
     "both": "concurrently \"npm start\" \"nodemon server/app\""
 
@@ -76,7 +96,9 @@
 
   "devDependencies": {
 
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+
+    "cross-env": "^7.0.3"
 
   }
 
