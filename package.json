@@ -42,7 +42,7 @@
 
   "scripts": {
 
-    "start": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js start",
+  "start": "react-scripts start",
    "build": "react-scripts build",
 
     "test": "react-scripts test",
