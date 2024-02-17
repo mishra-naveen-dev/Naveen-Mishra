@@ -1,6 +1,6 @@
 {
 
-  "name": "frontend",
+  "name": "client",
 
   "version": "0.1.0",
 
@@ -43,10 +43,7 @@
   "scripts": {
 
     "start": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js start",
-   
-      "build": "cross-env NODE_ENV=production OTHERFLAG=myValue webpack --config build/webpack.config.js",
- 
-   // "build": "react-scripts build",
+   "build": "react-scripts build",
 
     "test": "react-scripts test",
 
