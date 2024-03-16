@@ -42,12 +42,14 @@
 
   "scripts": {
 
-  "start": "react-scripts start",
-   "build": "react-scripts build",
+    "start": "react-scripts start",
+
+    "build": "react-scripts build",
+
     "test": "react-scripts test",
     "eject": "react-scripts eject",
 
-    "deploy": "npm run build",
+    "predeploy": "npm run build",
 
     "both": "concurrently \"npm start\" \"nodemon server/app\""
 
@@ -91,9 +93,7 @@
 
   "devDependencies": {
 
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-
-    "cross-env": "^7.0.3"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
 
   }
 
