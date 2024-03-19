@@ -1,9 +1,7 @@
 <h1 align='center'>
   # {Protfolio} - Frontend
 </h1>
-<div align='center'>
-  <img src="https://raw.githubusercontent.com/imakshath/imakshath/master/1%20IRGHmiGsa16stedQvIaZfw.gif" alt="https://mishra-naveen-dev.io" />
-</div>
+
 I have already build and deploy on my github id you checkout it and visit atleast one
 `https://mishra-naveen-dev.github.io/MyPortfolio/`
 
@@ -126,3 +124,19 @@ POST /api/contact: Endpoint to handle contact form submissions. Requires a JSON 
 The server connects to a MongoDB database to store contact form submissions.
 
 ```
+
+<div align='center'>
+  <img src="./src/images/githubimag/protfolioss1.png" alt="https://mishra-naveen-dev.io" />
+</div>
+
+<div align='center'>
+  <img src="./src/images/githubimag/protfolioss2.png" alt="https://mishra-naveen-dev.io" />
+</div>
+
+<div align='center'>
+  <img src="./src/images/githubimag/protfolioss3.png" alt="https://mishra-naveen-dev.io" />
+</div>
+
+<div align='center'>
+  <img src="./src/images/githubimag/protfolioss4.png" alt="https://mishra-naveen-dev.io" />
+</div>
