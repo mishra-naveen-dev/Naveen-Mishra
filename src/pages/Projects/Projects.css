@@ -11,10 +11,36 @@
   font-weight: bold;
   color: #138781;
 }
+
+/* Customizing the first button */
+/* .custom-btn1 {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.custom-btn1:hover {
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+} */
+
+/* Customizing the second button */
+/* .custom-btn2 {
+  padding: 15px 25px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.custom-btn2:hover {
+  background-color: #28a745;
+  color: #fff;
+  text-decoration: none;
+}
 .certificates {
   margin: 40px 0px;
   margin-left: 100px;
-}
+} */
 
 /* .certificates hr {
     color: #138781;
@@ -71,7 +97,7 @@
 
 #ads .ad-btn {
   text-transform: uppercase;
-  width: 150px;
+  width: 120px;
   height: 40px;
   display: block;
   text-align: center;
@@ -79,9 +105,9 @@
   color: black;
   border-radius: 80px;
   font-size: 16px;
-  line-height: 35px;
+  line-height: 40px;
   text-decoration: none;
-  margin: 20px auto 20px auto;
+  margin: 10px auto 12px auto;
   overflow: hidden;
   position: relative;
 }
