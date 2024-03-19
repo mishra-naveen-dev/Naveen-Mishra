@@ -1,3 +1,25 @@
+<h1 align='center'>
+  # {Protfolio} - Frontend
+</h1>
+<div align='center'>
+  <img src="https://raw.githubusercontent.com/imakshath/imakshath/master/1%20IRGHmiGsa16stedQvIaZfw.gif" alt="https://mishra-naveen-dev.io" />
+</div>
+I have already build and deploy on my github id you checkout it and visit atleast one
+`https://mishra-naveen-dev.github.io/MyPortfolio/`
+
+# Here is the repo link
+
+"https://github.com/mishra-naveen-dev/MyPortfolio"
+
+# {Protfolio} - Frontend + Backend
+
+I have completed myreact myportfolio
+`https://mishra-naveen-dev.github.io/MyPortfolio/`
+
+# Here is the repo link
+
+"https://github.com/mishra-naveen-dev/react-portfolio-mern"
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +90,39 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# {Protfolio} - Backend
+
+This repository contains the backend code for {Protfolio}. It's built with Node.js, Express, and MongoDB.
+
+## Getting Started
+
+These instructions will help you set up and run the backend server on your local machine.
+
+### Prerequisites
+
+Before you begin, make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) - JavaScript runtime
+- [npm](https://www.npmjs.com/) - Node.js package manager
+- [MongoDB](https://www.mongodb.com/try/download/community) - Database server
+
+### Installing Dependencies
+
+In the project directory, run:
+
+```bash
+npm install
+
+To start the backend server using nodemon, run:
+nodemon app.js
+
+App.js is the entry point of the backend
+
+How it Works
+The backend of {Protfolio} is built using Node.js and Express. It provides the following API endpoint:
+
+POST /api/contact: Endpoint to handle contact form submissions. Requires a JSON payload with the following fields: name, email, mobile, msg.
+The server connects to a MongoDB database to store contact form submissions.
+
+```
