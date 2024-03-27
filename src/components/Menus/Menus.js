@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../../images/naveen_proflie_pic.png';
+import img1 from '../../images/naveenpp2.jpg';
 import "./Menus.css";
 import { FcContacts, FcFolder, FcHome } from 'react-icons/fc';
 import { FcAbout } from 'react-icons/fc';

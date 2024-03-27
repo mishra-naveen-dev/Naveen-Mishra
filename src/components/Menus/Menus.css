@@ -16,7 +16,9 @@
   /* text-align: center; */
   margin-left: 25px;
 }
-
+.img {
+  border-radius: 50%;
+}
 .nav-link {
   margin-top: 20px;
   cursor: pointer;
