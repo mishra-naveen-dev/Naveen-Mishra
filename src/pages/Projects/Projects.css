@@ -52,20 +52,25 @@
     font-weight: bold;
     color: #138781;
   } */
-#ads {
-  margin: 30px 0px 30px 0px;
+/* Updated CSS for card-notify-badge */
+#ads .card-image {
+  position: relative; /* Ensure badge is positioned relative to the card image */
 }
+
 #ads .card-notify-badge {
   position: absolute;
-  left: -10px;
-  top: -20px;
+  top: 10px; /* Adjusted to fit within card */
+  right: 10px; /* Adjusted to fit within card */
   background: #f29f67;
   text-align: center;
-  border-radius: 30px 30px 30px 30px;
+  border-radius: 50%; /* Fully rounded badge */
   color: black;
-  padding: 5px 10px;
+  padding: 8px 12px;
   font-size: 14px;
+  font-weight: bold;
+  z-index: 10; /* Ensure it appears above other elements */
 }
+
 .projects .card img {
   height: 150px;
   width: 100%;

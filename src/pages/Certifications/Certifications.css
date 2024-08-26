@@ -1,0 +1,101 @@
+/* Container styling */
+.certifications {
+  margin: 40px 0px;
+  margin-left: 100px;
+}
+
+/* Section title */
+.certifications h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+.certifications hr {
+  width: 50%;
+  margin: 0 auto;
+  border-top: 2px solid #333;
+}
+
+/* Card styling */
+.card {
+  border: none;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  overflow: hidden; /* Ensures that any overflowing content is hidden */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Zoom-in effect */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Adding a smooth animation for the image */
+.card img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(1.05); /* Zoom-in effect for the image */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* Title styling */
+.cert-title h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Button container styling */
+.button-container {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+}
+
+/* Button styling */
+.cert-btn {
+  padding: 10px 20px;
+  color: #007bff;
+  background-color: transparent;
+  border: 2px solid #007bff; /* Border for button */
+  border-radius: 50px; /* Rounded corners */
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.cert-btn:hover {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+/* Additional styling for responsiveness */
+@media (max-width: 768px) {
+  .certifications h2 {
+    font-size: 24px;
+  }
+
+  .cert-title h5 {
+    font-size: 16px;
+  }
+}
+
+/* Image styling */
+.card-image {
+  text-align: center; /* Center the image */
+  margin-bottom: 20px; /* Space between image and button */
+}
+
+.card-image img {
+  max-width: 100%; /* Ensure the image fits within the card */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for the image */
+}
