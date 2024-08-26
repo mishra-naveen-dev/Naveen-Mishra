@@ -1,7 +1,8 @@
-import { BiLogoHtml5 } from 'react-icons/bi'
-import { DiCss3 } from 'react-icons/di'
-import { TbBrandJavascript, TbBrandCpp } from 'react-icons/tb'
-import { FaBootstrap, FaGithub, FaReact, FaJava, FaPython } from 'react-icons/fa'
+import { BiLogoHtml5 } from 'react-icons/bi';
+import { DiCss3 } from 'react-icons/di';
+import { TbBrandJavascript, TbBrandCpp } from 'react-icons/tb';
+import { FaBootstrap, FaGithub, FaReact, FaPython } from 'react-icons/fa';
+
 export const TechStackList = [
     {
         _id: 1,
@@ -30,24 +31,22 @@ export const TechStackList = [
     },
     {
         _id: 6,
-        name: 'Java',
-        icon: FaJava
-    },
-    {
-        _id: 7,
         name: 'Git/GitHub',
         icon: FaGithub
     },
     {
-        _id: 8,
-        name: 'React',
+        _id: 7,
+        name: 'React (Basic)',
         icon: FaReact
     },
     {
-        _id: 9,
-        name: 'Python',
+        _id: 8,
+        name: 'Python (Basic)',
         icon: FaPython
     },
-
-
-]
+    {
+        _id: 9,
+        name: 'Django (Basic)',
+        icon: FaPython // This is the placeholder icon for Django
+    }
+];

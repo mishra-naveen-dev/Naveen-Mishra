@@ -7,7 +7,7 @@ import { FcPortraitMode } from 'react-icons/fc'
 import { FcBiotech } from 'react-icons/fc';
 import { FcReadingEbook } from 'react-icons/fc';
 import { Link } from 'react-scroll';
-
+import { FcDocument } from 'react-icons/fc'
 
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
@@ -60,7 +60,11 @@ const Menus = ({ toggle }) => {
 
                                             <FcFolder />Projects
                                         </Link></div>
+                                    <div className="nav-link">
+                                        <Link to="project" spy={true} smooth={true} offset={-100} duration={100}>
 
+                                            <FcDocument />Certifications
+                                        </Link></div>
 
                                     <div className="nav-link">
                                         <Link to="work" spy={true} smooth={true} offset={-100} duration={100}>
@@ -123,6 +127,13 @@ const Menus = ({ toggle }) => {
                             </Link>
                         </div>
 
+
+                        <div className="nav-link">
+                            <Link to="project" spy={true} smooth={true} offset={-100} duration={100}>
+
+                                <FcDocument title="Certifications" />
+                            </Link>
+                        </div>
                         {/* <div className="nav-item">
                             <div className="nav-link">
                                 <FcVoicePresentation title="Testimonal" /></div>

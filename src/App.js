@@ -9,6 +9,7 @@ import { BiCopyright } from "react-icons/bi";
 import MobileNav from "./components/MobileNav/MobileNav";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext";
+import Certifications from './pages/Certifications/Certifications';
 
 function App() {
   const [theme] = useTheme()
@@ -23,6 +24,7 @@ function App() {
           <Education />
           <TechStack />
           <Projects />
+          <Certifications />
           <WorkExp />
           <Contact />
         </div>
