@@ -5,7 +5,7 @@ import { FcContacts, FcFolder, FcHome } from 'react-icons/fc';
 import { FcAbout } from 'react-icons/fc';
 import { FcPortraitMode } from 'react-icons/fc'
 import { FcBiotech } from 'react-icons/fc';
-import { FcReadingEbook } from 'react-icons/fc';
+import { FcReadingEbook, FcDocument } from 'react-icons/fc';
 import { Link } from 'react-scroll';
 
 const MobileNav = () => {
@@ -71,7 +71,11 @@ const MobileNav = () => {
                                         <FcFolder />Projects
                                     </Link></div>
 
+                                <div className="nav-link">
+                                    <Link to="certifications" spy={true} smooth={true} offset={-100} duration={100} onClick={handleMenuClick}>
 
+                                        <FcDocument />Certifications
+                                    </Link></div>
                                 <div className="nav-link">
                                     <Link to="work" spy={true} smooth={true} offset={-100} duration={100} onClick={handleMenuClick}>
 

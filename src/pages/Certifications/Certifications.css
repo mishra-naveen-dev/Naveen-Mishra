@@ -99,3 +99,17 @@
   height: auto; /* Maintain aspect ratio */
   border-radius: 8px; /* Rounded corners for the image */
 }
+
+@media (max-width: 600px) {
+  .certifications {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+  .certifications hr {
+    width: 270px;
+  }
+  .card {
+    margin-top: 40px;
+  }
+}

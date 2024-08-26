@@ -129,7 +129,7 @@ const Menus = ({ toggle }) => {
 
 
                         <div className="nav-link">
-                            <Link to="project" spy={true} smooth={true} offset={-100} duration={100}>
+                            <Link to="certifications" spy={true} smooth={true} offset={-100} duration={100}>
 
                                 <FcDocument title="Certifications" />
                             </Link>
