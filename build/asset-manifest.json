@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.53208b2d.css",
+    "main.js": "/static/js/main.b3f2d702.js",
+    "static/js/453.258b012d.chunk.js": "/static/js/453.258b012d.chunk.js",
+    "static/media/netflix_p.png": "/static/media/netflix_p.474a89827b703fa2f96a.png",
+    "static/media/project3.png": "/static/media/project3.0cae3ac48fb2182e5770.png",
+    "static/media/Tic-Tac-Toe.png": "/static/media/Tic-Tac-Toe.be0519aceca346c8bd6d.png",
+    "static/media/website_imge.png": "/static/media/website_imge.9bfbcb5dc18c253103e4.png",
+    "static/media/metaJavascript.png": "/static/media/metaJavascript.bf9c332a869a7fa22ddf.png",
+    "static/media/ReactBasicMeta.png": "/static/media/ReactBasicMeta.1d381bf4238148961c4b.png",
+    "static/media/tcsJavascript.png": "/static/media/tcsJavascript.782e8c480f85717f5476.png",
+    "static/media/contactme.jpg": "/static/media/contactme.a2380c17276006854ba9.jpg",
+    "static/media/project2.png": "/static/media/project2.aa837afd92b53abeff0b.png",
+    "static/media/naveenpp2.jpg": "/static/media/naveenpp2.6eecb3ac00a07d932fce.jpg",
+    "index.html": "/index.html",
+    "main.53208b2d.css.map": "/static/css/main.53208b2d.css.map",
+    "main.b3f2d702.js.map": "/static/js/main.b3f2d702.js.map",
+    "453.258b012d.chunk.js.map": "/static/js/453.258b012d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53208b2d.css",
+    "static/js/main.b3f2d702.js"
+  ]
+}
