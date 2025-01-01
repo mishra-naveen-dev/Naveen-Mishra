@@ -1,20 +1,20 @@
-import { useState, createContext, useContext } from 'react'
+import { useState, createContext, useContext, useMemo } from 'react';
 
-const ThemeContext = createContext()
+const ThemeContext = createContext();
+
 const ThemeProvider = ({ children }) => {
-    const [theme, setTheme] = useState('light')
+    const [theme, setTheme] = useState('light');
+
+    const value = useMemo(() => [theme, setTheme], [theme]);
 
     return (
-        <ThemeContext.Provider value={[theme, setTheme]}>
-            {
-                children
-            }
+        <ThemeContext.Provider value={value}>
+            {children}
         </ThemeContext.Provider>
     );
-
-
 };
 
-//custom hook
+// Custom hook
 const useTheme = () => useContext(ThemeContext);
+
 export { useTheme, ThemeProvider };

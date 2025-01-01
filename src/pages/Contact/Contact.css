@@ -70,6 +70,18 @@ button:focus {
   color: white;
 }
 
+.success-alert {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
 /* =========================== */
 @media (max-width: 600px) {
   .contact {
