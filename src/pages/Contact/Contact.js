@@ -24,8 +24,6 @@ const Contact = React.memo(() => {
     }));
   };
 
-  const debouncedHandleChange = useMemo(() => debounce(handleChange, 300), []);
-
   const validateForm = useCallback(() => {
     const newErrors = {};
 
