@@ -1,5 +1,5 @@
 import React, { memo } from "react";
-import img1 from "../../images/naveenpp2.webp";
+import img1 from "../../images/Naveen f .webp";
 import "./Menus.css";
 import {
   FcContacts,

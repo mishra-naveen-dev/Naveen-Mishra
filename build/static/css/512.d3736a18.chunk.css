@@ -1,0 +1,2 @@
+.mobile-nav{overflow:hidden;position:fixed;top:0;width:100%;z-index:1}.mobile-nav-header{background-color:#1e1e1e;height:50px;padding:8px;width:100%}.mobile-nav-header .moblie-nav-icon{color:#fff;cursor:pointer}.mobile-nav-menu .nav-items{background-color:#1e1e1e;border-bottom-right-radius:15px;height:auto;padding:10px 10px 20px;width:200px}.mobile-nav-title{color:#f29f67;font-size:20px;font-weight:700;margin-left:20px;text-transform:capitalize;vertical-align:middle}@media (min-width:600px){.mobile-nav{display:none}}
+/*# sourceMappingURL=512.d3736a18.chunk.css.map*/
